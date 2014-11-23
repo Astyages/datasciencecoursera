@@ -44,6 +44,7 @@ The conversion into more descriptive names is based on the following equivalence
   - std(): standard deviation
   - suffix X, Y, Z: 3 axial signals
 
+List of original and more descriptive variable names
   - "1"	"tBodyAcc-mean()-X"	"Mean Time for Body Accelerometer Signal on X axis"
   - "2"	"tBodyAcc-mean()-Y"	"Mean Time for Body Accelerometer Signal on Y axis"
   - "3"	"tBodyAcc-mean()-Z"	"Mean Time for Body Accelerometer Signal on Z axis"
