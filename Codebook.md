@@ -24,6 +24,10 @@ Version 1.0](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%
   - descriptive.labels: character vector which holds manually inputted, more descriptive variable names
   - tidy: 180 by 68 data frame which holds the mean of each variable for each activity and each subject
   
+### Variable Units
+All variables are either one of 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz, or a derivation performed by the original authors. 
+The time signals are in seconds and the frequency domain signals in Hz.
+
 ### Important Transformations
   - run_analysis.R rbind() the test data under the train data, given these measurements are different instances, even if the measurments correspond to the same subject ID performing the same activity label.
   - run_analysis.R uses grepl() to look for only "mean()" and "std()" in all.data, excluding meanFreq() variables
